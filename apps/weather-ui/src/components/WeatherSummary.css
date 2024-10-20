@@ -1,0 +1,98 @@
+.weather-summary {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.weather-summary h2 {
+  margin-top: 0;
+  color: #3498db;
+}
+
+.current-weather {
+  margin-bottom: 2rem;
+}
+
+.date {
+  color: #7f8c8d;
+  margin-bottom: 0.5rem;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.temperature .icon {
+  color: #f39c12;
+  margin-right: 10px;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #34495e;
+}
+
+.weather-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.detail-item .icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #3498db;
+}
+
+.detail-item p {
+  margin: 0;
+}
+
+.detail-item p:first-child {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.detail-item p:last-child {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.forecast-item {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.forecast-temp {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
